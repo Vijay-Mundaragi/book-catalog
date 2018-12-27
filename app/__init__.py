@@ -24,7 +24,7 @@ def create_app(config_class=Config):
     bootstrap.init_app(flask_app)  # initialize bootstrap
     login_manager.init_app(flask_app)  # initialize login_manager
     bcrypt.init_app(flask_app)
-    heroku.init_app(app)
+    heroku.init_app(flask_app)
 
     from app.catalog import main  # import blueprint
     flask_app.register_blueprint(main)  # register blueprint
