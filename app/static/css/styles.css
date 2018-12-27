@@ -11,8 +11,9 @@ span {margin: 2px}
 .ftr {padding: 25px}
 .wrapper {position: relative; min-height: 120%;}
 .title { color: floralwhite }
-.form { height: 50%; width:70%; padding: 10px; position: relative; left: 48px}
+.form { height: 50%; width:60%; padding: 10px; position: relative; left: 48px}
 .form-group {width: 40%}
+.temp-form { width: 70% }
 .login-msg{position: relative; left: 48px}
 
 
